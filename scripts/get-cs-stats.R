@@ -1,7 +1,7 @@
 #!/bin/bash/env Rscript
 
-source("/gpfs/data/naiklab/Alex/cibersort-pipeline/csp/scripts/helper-scripts/Ciber-Sort-Barplot-Functions.R")
-source("/gpfs/data/naiklab/Alex/cibersort-pipeline/csp/scripts/helper-scripts/Ciber-Sort-Automate-Barplot-Stats.R")
+source("csp/scripts/helper-scripts/Ciber-Sort-Barplot-Functions.R")
+source("csp/scripts/helper-scripts/Ciber-Sort-Automate-Barplot-Stats.R")
 
 # command line arguments
 args = commandArgs(trailingOnly = TRUE)

@@ -1,6 +1,6 @@
 #!/bin/bash/env Rscript
 
-source("/gpfs/data/naiklab/SHARED_DATA/shared-scripts/Cibersort/CIBERSORT.R")
+source("csp/scripts/helper-scripts/CIBERSORT.R")
 
 # command line arguments
 args = commandArgs(trailingOnly = TRUE)
