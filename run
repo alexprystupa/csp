@@ -1,0 +1,19 @@
+#!/bin/bash
+# run
+
+module load r/4.2.2
+
+route_1="run-cs"
+route_2="run-stats"
+
+if [ $1 == $route_1 ];
+then
+    sbatch_cmd="sbatch csp/routes/run-cibersort.sh"
+    ($sbatch_cmd)
+fi
+
+if [ $1 == $route_2 ];
+then
+    sbatch_cmd="sbatch csp/routes/run-stats.sh"
+    ($sbatch_cmd)
+fi
